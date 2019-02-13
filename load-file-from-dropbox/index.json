@@ -1,0 +1,24 @@
+{
+    "title": "Load a file from your Dropbox",
+    "summary": "Take this challenge and you will learn how to easily load a file from your Dropbox.",
+    "skills": {"web": 1, "json": 1},
+    "prerequisites": [{
+        "message": "This challenge assumes you already created a product and installed its dependencies"
+    }],
+    "tasks": [{
+        "title": "Start your website",
+        "stopTimer": true
+    }, {
+        "title": "Create an email account",
+        "stopTimer": true
+    }, {
+        "title": "Create an Dropbox account",
+        "stopTimer": true
+    }, {
+        "title": "Create a markdown file and save in Dropbox",
+        "stopTimer": true
+    }, {
+        "title": "Load the markdown file",
+        "files": ["chunks/{{chunkName}}/chunk.json"]
+    }]
+  }
